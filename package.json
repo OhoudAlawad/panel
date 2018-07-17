@@ -1,0 +1,24 @@
+{
+  "name": "panel",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node-sass assets/sass/style.scss assets/css/main.css --watch --source-map=true --output-style=compressed",
+    "serve": "live-server -q",
+    "create": "node scripts/create.js",
+    "start": "npm run watch | npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://OhoudAlawad@bitbucket.org/OhoudAlawad/panel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/OhoudAlawad/panel#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0"
+  }
+}
