@@ -19,6 +19,7 @@
   "homepage": "https://bitbucket.org/OhoudAlawad/panel#readme",
   "dependencies": {
     "live-server": "^1.2.0",
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.9.0",
+    "kind-of": ">=6.0.3"
   }
 }
