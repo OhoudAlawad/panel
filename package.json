@@ -18,7 +18,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/OhoudAlawad/panel#readme",
   "dependencies": {
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.2",
     "node-sass": "^4.9.0"
   }
 }
